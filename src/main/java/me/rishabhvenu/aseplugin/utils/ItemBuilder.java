@@ -195,6 +195,10 @@ public class ItemBuilder {
         return this;
     }
 
+    public void setStainedGlassColor(int num) {
+        is.setDurability((short) num);
+    }
+
     public ItemBuilder setModelData(int data) {
         ItemMeta im = is.getItemMeta();
         im.setCustomModelData(data);

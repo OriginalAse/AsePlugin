@@ -1,6 +1,0 @@
-name: AsePlugin
-version: '${project.version}'
-main: me.rishabhvenu.aseplugin.AsePlugin
-api-version: 1.18
-authors: [ TheOriginalAse ]
-description: AsePlugin lib
